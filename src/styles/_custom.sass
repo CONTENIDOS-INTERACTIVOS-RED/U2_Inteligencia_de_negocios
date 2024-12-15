@@ -70,6 +70,10 @@ $custom-card-img-height: 322px
   background-color: #FEEBDB
 
 .bg-azul
+  background-color: #EAF4FB
+.bg-azul-claro
+  background-color: #E8EEFD
+.bg-azul-oscuro
   background-color: #D7E9F7
 .bg-azul-1
   background-color: #3C97DA
@@ -80,8 +84,31 @@ $custom-card-img-height: 322px
 .bg-gris
   background-color: #F4F4F4
 
+.bg-rojo
+  background-color: #FE9D52
+
 .fs-16px
   font-size: 16px
 
 .border-top-naranja-11px
   border-top: 11px solid #FE9D52
+
+.card_hover
+  .custom-image-card
+    transition: all 0.2s ease-in-out
+  .custom-image-card:hover
+    background-color: #205277
+    p
+      color: $white !important
+
+// ACORDEON
+.acordion__header
+  background-color: #EAF4FB!important
+  h4, i
+	  font-weight: 600 !important
+.acordion__contenido
+  background-color: #EAF4FB!important  
+.acordion__header--active
+  background-color: #B0D5F0!important
+  h4, i
+    font-weight: bold

@@ -1,1 +1,1 @@
-module.exports = 'Unidad 1. Explorando la inteligencia de negocios'
+module.exports = 'Unidad 2. Análisis de datos y visualización'

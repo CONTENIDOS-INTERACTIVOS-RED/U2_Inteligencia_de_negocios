@@ -2,7 +2,8 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 En esta unidad se explorarán los conceptos clave de la inteligencia de negocios, incluyendo plataformas, herramientas y el ciclo de vida de sus sistemas. Temas como big data, Power BI  y empresas desarrolladoras permitirán al estudiante comprender el ecosistema de la inteligencia de negocios en el contexto empresarial actual. Se invita a realizar un estudio consciente y responsable, utilizando herramientas digitales y recursos de apoyo para profundizar en los contenidos.
+    p.mb-4.mb-md-5 En esta unidad 2 se estudian las técnicas y herramientas clave del análisis de datos y su visualización, fundamentales para la Inteligencia de Negocios (BI). Se aborda cómo el análisis descriptivo, predictivo y prescriptivo impulsa las capacidades de BI, permitiendo evaluar el pasado, anticipar tendencias y optimizar estrategias empresariales, maximizando el valor de los datos y mejorando los procesos organizativos para alcanzar los objetivos corporativos.
+
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

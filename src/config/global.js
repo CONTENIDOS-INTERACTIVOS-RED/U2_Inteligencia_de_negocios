@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Explorando la inteligencia de negocios',
+    numeroUnidad: '2',
+    tituloUnidad: 'Análisis de datos y visualización',
   },
   menuPrincipal: {
     menu: [
@@ -31,26 +31,21 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Concepto y evolución de la inteligencia de negocios ',
+        titulo: 'Análisis descriptivo, predictivo y prescriptivoocios  ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Fundamentos de la Inteligencia de Negocios (IN)',
+            titulo: 'Análisis predictivo: fundamentos y aplicaciones',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Ámbito de aplicación de la Inteligencia de Negocios',
+            titulo:
+              'Análisis prescriptivo: guía para la optimización de decisiones',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Empresas desarrolladoras de inteligencia de negocios',
-            hash: 't_1_3',
           },
         ],
       },
@@ -65,38 +60,14 @@ export default {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
-              'Función de la bodega de datos y el web scraping en inteligencia de negocios',
+              'Infraestructura y tecnologías para la gestión de Big Data ',
             hash: 't_2_1',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Ciclo de vida de un sistema de inteligencia de negocios',
-        desarrolloContenidos: true,
-        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Fase de planificación y definición de requisitos en un sistema de IN',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'Desarrollo e implementación del sistema de inteligencia de negocios (IN)',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo:
-              'Mantenimiento y evolución del sistema de inteligencia de negocios (IN)',
-            hash: 't_3_3',
+            numero: '2.2',
+            titulo: 'Aplicaciones de Big Data en la inteligencia de negocios',
+            hash: 't_2_2',
           },
         ],
       },
@@ -138,118 +109,85 @@ export default {
   referencias: [
     {
       referencia:
-        'IBM. (s.f.). Infraestructura de TI, Libere y aproveche el poder de su infraestructura de TI.',
-      link: 'https://www.ibm.com/co-es/it-infrastructure',
+        'Davenport, T. H., & Harris, J. G. (2007). Competing on Analytics: The New Science of Winning. Harvard Business Press.',
+      link: '',
     },
     {
-      referencia: 'IBM. (s.f.). Business Intelligence.',
-      link: 'https://www.ibm.com/mx-es/topics/business-intelligence',
+      referencia:
+        'Inmon, W. H. (1992). Building the Data Warehouse. QED Technical Publishing.',
+      link: '',
     },
     {
-      referencia: 'TIC Portal. (s.f.). Inteligencia de negocio (BI).',
-      link: 'https://www.ticportal.es/glosario-tic/inteligencia-negocio-bi',
+      referencia:
+        'Laney, D. (2001). 3D Data Management: Controlling Data Volume, Velocity and Variety. META Group.',
+      link: '',
+    },
+    {
+      referencia:
+        'Mayer-Schönberger, V., & Cukier, K. (2013). Big Data: A Revolution That Will Transform How We Live, Work, and Think. Houghton Mifflin Harcourt.',
+      link: '',
+    },
+    {
+      referencia:
+        'Watson, M., & Jaynes, P. (2012). Supply Chain Network Design: Applying Optimization and Analytics to the Global Supply Chain. Pearson Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Zikopoulos, P., & Eaton, C. (2011). Understanding Big Data: Analytics for Enterprise Class Hadoop and Streaming Data. McGraw-Hill.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'BI (Business Intelligence)',
+      termino: 'Análisis descriptivo',
       significado:
-        'Conjunto de tecnologías y procesos que convierten datos en información útil para la toma de decisiones',
+        'Técnica que interpreta datos históricos para identificar patrones y tendencias.',
+    },
+    {
+      termino: 'Análisis predictivo',
+      significado:
+        'Método que utiliza algoritmos y datos históricos para anticipar eventos futuros.',
+    },
+    {
+      termino: 'Análisis prescriptivo',
+      significado:
+        'Proceso que recomienda acciones óptimas basadas en predicciones y modelos matemáticos.',
+    },
+    {
+      termino: 'Aprendizaje automático',
+      significado:
+        'Rama de la inteligencia artificial que permite a los sistemas aprender y mejorar automáticamente a partir de datos.',
     },
     {
       termino: 'Big Data',
       significado:
-        'Conjunto de datos de gran volumen, velocidad y variedad, que requiere tecnologías avanzadas para su análisis',
+        'Conjunto de datos masivos caracterizados por volumen, velocidad, variedad, veracidad y valor.',
     },
     {
-      termino: 'Cuadro de mando (Dashboard)',
+      termino: 'Data warehouse',
       significado:
-        'Herramienta de visualización de datos que muestra indicadores clave de rendimiento en tiempo real',
+        'Almacén centralizado que integra datos de múltiples fuentes para análisis.',
     },
     {
-      termino: 'Data Lake',
+      termino: 'Inteligencia de negocios (BI)',
       significado:
-        'Repositorio que almacena grandes volúmenes de datos en su forma original, estructurada y no estructurada',
+        'Estrategias y herramientas que convierten datos en información útil para la toma de decisiones.',
     },
     {
-      termino: 'Data Mart',
+      termino: 'KPI (Indicador clave)',
       significado:
-        'Subconjunto de un data warehouse que se centra en un área específica de una organización',
+        'Métrica utilizada para evaluar el desempeño y el logro de objetivos estratégicos.',
     },
     {
-      termino: 'Data Mining (Minería de Datos)',
+      termino: 'Power BI',
       significado:
-        'Proceso de analizar grandes conjuntos de datos para descubrir patrones y relaciones',
+        'Plataforma de Microsoft para el análisis de datos y la creación de informes interactivos.',
     },
     {
-      termino: 'Data Warehouse (Almacén de Datos)',
+      termino: 'Tableau',
       significado:
-        'Repositorio centralizado de datos consolidados de distintas fuentes para análisis y reportes',
-    },
-    {
-      termino: 'Dimensión',
-      significado:
-        'Categoría utilizada en un data warehouse para organizar datos, como tiempo, geografía o producto',
-    },
-    {
-      termino: 'ETL (Extract, Transform, Load)',
-      significado:
-        'Proceso de extraer, transformar y cargar datos en un almacén de datos',
-    },
-    {
-      termino: 'Indicador clave de desempeño (KPI)',
-      significado:
-        'Métrica que mide el rendimiento de una actividad o proceso específico en una organización',
-    },
-    {
-      termino: 'Informes (Reports)',
-      significado:
-        'Documentos que presentan datos procesados y análisis de manera organizada para toma de decisiones',
-    },
-    {
-      termino: 'IoT (Internet of Things)',
-      significado:
-        'Tecnología que conecta dispositivos físicos a internet para recopilar y compartir datos en tiempo real',
-    },
-    {
-      termino: 'Machine learning (Aprendizaje Automático)',
-      significado:
-        'Técnica de IA que permite a los sistemas aprender y mejorar sin programación explícita',
-    },
-    {
-      termino: 'Metadatos',
-      significado:
-        'Datos que describen otros datos, como su origen, formato y características',
-    },
-    {
-      termino: 'OLAP (Online Analytical Processing)',
-      significado:
-        'Tecnología que permite el análisis rápido y multidimensional de grandes volúmenes de datos',
-    },
-    {
-      termino: 'Panel de control (Control Panel)',
-      significado:
-        'Interfaz que permite supervisar y gestionar datos en una plataforma de BI',
-    },
-    {
-      termino: 'Predicción (Forecasting)',
-      significado:
-        'Proceso de estimar el comportamiento futuro basado en datos históricos y tendencias',
-    },
-    {
-      termino: 'SQL (Structured Query Language)',
-      significado:
-        'Lenguaje de programación utilizado para gestionar y manipular bases de datos relacionales',
-    },
-    {
-      termino: 'Toma de decisiones basada en datos',
-      significado:
-        'Proceso de utilizar datos y análisis en lugar de intuición para tomar decisiones',
-    },
-    {
-      termino: 'Visualización de datos',
-      significado:
-        'Técnica que convierte datos en gráficos y diagramas para facilitar su comprensión e interpretación',
+        'Herramienta de visualización de datos que crea gráficos interactivos y personalizados.',
     },
   ],
   complementario: [
