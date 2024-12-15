@@ -46,27 +46,24 @@
 
     .bg-azul.bg-full-width.mb-4
       .px-5.pb-md-3.py-4
+        ImagenInfografica.color-secundario.mb-5.bg-transparent
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/unidad/img-80.png', alt='Texto que describa la imagen')
 
-        .row
-          .col-12.col-md-10.col-xl-8.col-xxl-6.py-5.mx-auto
-            ImagenInfografica.color-secundario.mb-5.bg-transparent
-              template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
-
-        
-              .tarjeta.bg-white.p-4(x="8.4%" y="87%" numero="+")
-                .h5.mb-2 Power BI
-                p Visualizaciones interactivas, conexión con múltiples fuentes de datos.
-              .tarjeta.bg-white.p-4(x="34.4%" y="87%" numero="+")
-                .h5.mb-2 Tableau
-                p Gráficos avanzados y tableros personalizados.
-              .tarjeta.bg-white.p-4(x="59.4%" y="87%" numero="+")
-                .h5.mb-2 Excel
-                p Análisis básicos, tablas dinámicas y gráficos. Ideal para pequeñas empresas.
-              .tarjeta.bg-white.p-4(x="85.4%" y="87%" numero="+")
-                .h5.mb-2 Google Data Studio
-                p Plataforma gratuita para informes interactivos.
+    
+          .tarjeta.bg-white.p-4(x="26.1%" y="69%" numero="+")
+            .h5.mb-2 Power BI
+            p Visualizaciones interactivas, conexión con múltiples fuentes de datos.
+          .tarjeta.bg-white.p-4(x="41.8%" y="69%" numero="+")
+            .h5.mb-2 Tableau
+            p Gráficos avanzados y tableros personalizados.
+          .tarjeta.bg-white.p-4(x="57.4%" y="69%" numero="+")
+            .h5.mb-2 Excel
+            p Análisis básicos, tablas dinámicas y gráficos. Ideal para pequeñas empresas.
+          .tarjeta.bg-white.p-4(x="72.7%" y="69%" numero="+")
+            .h5.mb-2 Google Data Studio
+            p Plataforma gratuita para informes interactivos.
 
     h2 Ejemplo práctico: Amazon
     p.mb-4 Amazon emplea análisis descriptivo para observar patrones históricos de ventas, lo que le permite ajustar inventarios y diseñar estrategias de marketing basadas en datos concretos.
