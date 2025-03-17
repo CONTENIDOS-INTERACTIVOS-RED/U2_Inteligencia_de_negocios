@@ -1,1 +1,1 @@
-module.exports = 'Unidad 2. Análisis de datos y visualización'
+module.exports = 'Análisis de datos y visualización'

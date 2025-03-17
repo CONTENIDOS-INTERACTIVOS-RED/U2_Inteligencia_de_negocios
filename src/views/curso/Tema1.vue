@@ -122,7 +122,7 @@
             .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-13.svg', style="width: 80px")
               p.text-bold.mb-4.text-center ARPU (Average Revenue per User)
-              p.px-1.text-small.mb-0.d-flex.text-centerCalcula el ingreso promedio por cliente. Ejemplo: Netflix mide estrategias de retención.
+              p.px-1.text-small.mb-0.d-flex.text-center Calcula el ingreso promedio por cliente. Ejemplo: Netflix mide estrategias de retención.
           .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3
             .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-14.svg', style="width: 80px")
@@ -133,7 +133,7 @@
 
     #t_1_1.titulo-segundo
       div.d-flex
-        span.me-3 1.1  
+        span.me-3 1.1
         h2 Análisis predictivo: fundamentos y aplicaciones
 
     .row.mb-4
@@ -148,8 +148,8 @@
           img.h-100(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
         .col-12.col-xl-7.col-xxl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column(data-aos="fade-left")
           h2.mb-4.pb-2.me-auto Origen y evolución del análisis predictivo 
-          p.mb-5 En el documento Origen y evolución del análisis predictivo , se explora cómo esta disciplina ha avanzado desde los primeros sistemas de soporte para decisiones en los años 70 hasta su democratización actual gracias a herramientas accesibles como Python y R. También se analizan sus aplicaciones clave en marketing, finanzas y logística, además de presentar herramientas como IBM SPSS Modeler y SAS Predictive Analytics que facilitan su implementación.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          p.mb-5 En el documento Origen y evolución del análisis predictivo, se explora cómo esta disciplina ha avanzado desde los primeros sistemas de soporte para decisiones en los años 70 hasta su democratización actual gracias a herramientas accesibles como Python y R. También se analizan sus aplicaciones clave en marketing, finanzas y logística, además de presentar herramientas como IBM SPSS Modeler y SAS Predictive Analytics que facilitan su implementación.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Origen y evolución del análisis predictivo.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Origen y evolución del análisis predictivo
              
@@ -375,7 +375,7 @@
                 p Impacto en la experiencia del cliente tras implementar las recomendaciones.
           .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
             img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
-    p.mb-4 Conexión con otros tipos de análisis El análisis prescriptivo funciona en conjunto con:
+    p.mb-4 Conexión con otros tipos de análisis <br> El análisis prescriptivo funciona en conjunto con:
 
     .row.mb-4.justify-content-center
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0

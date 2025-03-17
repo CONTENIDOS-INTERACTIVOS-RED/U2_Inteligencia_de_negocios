@@ -6,7 +6,7 @@
     p.mb-4 Big Data  ha revolucionado la manera en que las empresas toman decisiones estratégicas. A través de sus cinco características clave: volumen, velocidad, variedad, veracidad y valor, permite transformar grandes cantidades de datos en información útil. Esta capacidad, respaldada por tecnologías avanzadas y herramientas de análisis, redefine la competitividad empresarial en un mundo impulsado por la información.
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        <iframe width="1903" height="748" src="https://www.youtube.com/embed/10gEJkynf3E" title="Trastorno por Déficit de Atención e Hiperactividad TDAH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
     h2 Impacto del Big Data  en la inteligencia de negocios (BI)
     .row.mb-5
@@ -132,7 +132,7 @@
                   li.d-flex(data-aos="fade-up")
                     .lista-ol--cuadro__vineta.bg-rojo
                       span 1
-                    p.mb-0 <strong>Integración en BI</strong> Incorporar insights en plataformas de BI para su monitoreo y análisis continuo.
+                    p.mb-0 <strong>Integración en BI.</strong> Incorporar insights en plataformas de BI para su monitoreo y análisis continuo.
                   li.d-flex(data-aos="fade-up")
                     .lista-ol--cuadro__vineta.bg-rojo
                       span 2
@@ -155,7 +155,7 @@
           p(numero="1" titulo="Tasa de adopción de datos") General Electric asegura que el 80% de los datos recopilados se utilicen en decisiones estratégicas.  
           p(numero="2" titulo="ROI de Big Data") Procter & Gamble evalúa el retorno de inversión de sus modelos predictivos en campañas publicitarias.  
           p(numero="3" titulo="Latencia de datos") Spotify garantiza recomendaciones en tiempo real basadas en hábitos recientes de los  usuarios.  
-          p(numero="4" titulo="Reducción de costos operativos") FedEx optimiza rutas de transporte con Big Data , disminuyendo costos en un 10%.  
+          p(numero="4" titulo="Reducción de costos operativos") FedEx optimiza rutas de transporte con Big Data, disminuyendo costos en un 10%.  
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-60.png', alt='Texto que describa la imagen')
 
@@ -325,8 +325,8 @@
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.col-xxl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Herramientas de visualización de datos: Power BI, Tableau y Qlik
-          p.mb-5 En el documento Herramientas de visualización de datos: Power BI, Tableau, Qlik , se exploran las principales características, costos y aplicaciones de estas herramientas clave en inteligencia empresarial. Cada una ofrece soluciones únicas para transformar datos en visualizaciones interactivas, adaptándose a diferentes necesidades y sectores. Se invita a profundizar en estas plataformas para aprovechar al máximo su potencial en la toma de decisiones estratégicas. ¡Descubre cómo estas herramientas pueden optimizar tus análisis y presentaciones!
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          p.mb-5 En el documento Herramientas de visualización de datos: Power BI, Tableau, Qlik, se exploran las principales características, costos y aplicaciones de estas herramientas clave en inteligencia empresarial. Cada una ofrece soluciones únicas para transformar datos en visualizaciones interactivas, adaptándose a diferentes necesidades y sectores. Se invita a profundizar en estas plataformas para aprovechar al máximo su potencial en la toma de decisiones estratégicas. ¡Descubre cómo estas herramientas pueden optimizar tus análisis y presentaciones!
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Herramientas de visualización de datos.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Herramientas de visualización de datos: Power BI, Tableau y Qlik
              
@@ -353,6 +353,11 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
+    .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+      .p-4.p-md-5
+        #Actividad
+          <Actividad :cuestionario='cuestionario'/>
+
 </template>
 
 <script>
@@ -362,6 +367,172 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Business Intelligence y gestión de datos',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: '¿Qué es Business Intelligence (BI)?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Un conjunto de herramientas para la creación de bases de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Un proceso de análisis de datos sin tecnología avanzada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Un conjunto de tecnologías y procesos que convierten datos en información útil para la toma de decisiones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Un tipo de lenguaje de programación para bases de datos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto: '¿Qué caracteriza a Big Data?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Datos pequeños y fáciles de analizar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Datos con gran volumen, velocidad y variedad que requieren tecnologías avanzadas para su análisis.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Datos no estructurados almacenados en una sola fuente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un software para procesar datos de empresas pequeñas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto: '¿Qué es un Cuadro de Mando (Dashboard)?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Una herramienta de visualización de datos que muestra indicadores clave de rendimiento en tiempo real.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Un repositorio de datos sin procesar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un programa de programación de bases de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un proceso de transformación de datos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto: '¿Qué es un Data Lake?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un tipo de base de datos relacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Un repositorio que almacena grandes volúmenes de datos en su forma original, estructurada y no estructurada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Un panel para ver datos en tiempo real.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un proceso de analizar datos para encontrar patrones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto: '¿Qué caracteriza a un Data Mart?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Es un repositorio de datos que almacena grandes volúmenes de información sin procesar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Es un subconjunto de un data warehouse que se centra en un área específica de una organización.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Es una herramienta de visualización de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Es un proceso para convertir datos en información útil.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
